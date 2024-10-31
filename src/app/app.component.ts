@@ -7,6 +7,7 @@ import {InteraccionVentana1Component} from './interaccion-ventana1/interaccion-v
 import {InteraccionVentana2Component} from './interaccion-ventana2/interaccion-ventana2.component';
 import {ManipulacionCookiesComponent} from './manipulacion-cookies/manipulacion-cookies.component';
 import { SaludoUsuarioComponent } from './saludo-usuario/saludo-usuario.component';
+import {Ejercicio1Component} from './ejercicio1/ejercicio1.component';
 
 
 @Component({
@@ -15,7 +16,8 @@ import { SaludoUsuarioComponent } from './saludo-usuario/saludo-usuario.componen
   imports: [RouterOutlet, FechaYHoraActualComponent,
     NumerosAleatoriosComponent, NavegacionHistorialComponent,
     InteraccionVentana1Component, InteraccionVentana2Component,
-    ManipulacionCookiesComponent, SaludoUsuarioComponent
+    ManipulacionCookiesComponent, SaludoUsuarioComponent,
+    Ejercicio1Component
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
