@@ -1,5 +1,5 @@
 button {
-  background-color: #001f3f; /* Navy blue */
+  background-color: #001f3f;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -10,5 +10,5 @@ button {
 }
 
 button:hover {
-  background-color: #001a35; /* Darker navy blue on hover */
+  background-color: #001a35;
 }
