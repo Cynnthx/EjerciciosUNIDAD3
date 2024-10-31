@@ -1,0 +1,22 @@
+p {
+  font-size: 16px;
+  color: #083ca6; /* White text */
+}
+
+div {
+  margin-top: 10px;
+  font-family: Arial, sans-serif;
+  color: #6a00ff; /* White text */
+
+}
+
+strong {
+  font-weight: bold;
+}
+
+div::after {
+  content: attr(data-fecha-hora-actual);
+  display: block;
+  margin-top: 5px;
+  font-size: 14px;
+}

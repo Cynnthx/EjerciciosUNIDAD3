@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20201104/pngtree-vector-abstract-futuristic-circuit-board-and-mesh-line-illustration-high-computer-image_458708.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-weight: bold; /* esto pone tod0 el txto en negrita */
+
+}
+p {
+  font-size: 16px;
+  color: #083ca6;
+}
